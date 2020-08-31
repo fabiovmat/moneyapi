@@ -20,7 +20,7 @@ public class Pessoa {
 	@NotNull
 	private boolean ativo;
 	
-	@NotBlank(message = "O valor nãp pode ser nulo")
+	@NotBlank(message = "O nome não pode ser nulo")
 	private String nome;
 	
 	@Embedded
